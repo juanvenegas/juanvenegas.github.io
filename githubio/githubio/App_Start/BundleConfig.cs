@@ -21,11 +21,35 @@ namespace githubio
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
-
+                      "~/Scripts/respond.js",
+                      "~/Scripts/Template/jsTemplatewidgetapi.js",
+                      "~/Scripts/Template/jquery.themepunch.tools.min.js",
+                      "~/Scripts/Template/jquery.themepunch.revolution.min.js",
+                      "~/Scripts/Template/isotope.pkgd.min.js",
+                      "~/Scripts/Template/owl.carousel.js",
+                      "~/Scripts/Template/jquery.magnific-popup.min.js",
+                      "~/Scripts/Template/jquery.appear.js",
+                      "~/Scripts/Template/jquery.countTo.js",
+                      "~/Scripts/Template/jquery.parallax-1.1.3.js",
+                      "~/Scripts/Template/jquery.validate.js",
+                      "~/Scripts/Template/jquery.browser.js",
+                      "~/Scripts/Template/SmoothScroll.js",
+                      "~/Scripts/Template/template.js",
+                      "~/Scripts/Template/style-switcher.js"
+                      ));
+            //nuevas librerias por el template
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/fonts/FontTemplate/font-awesome.css",
+                      "~/Content/Template/fontello.css",
+                      "~/Content/Template/settings.css",
+                      "~/Content/Template/style.css",
+                      "~/Content/Template/dark_cyan.css",
+                      "~/Content/Template/style-switcher.css",
+                      "~/Content/Template/custom.css",
+                      "~/Content/Template/Carousel.css"));
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
