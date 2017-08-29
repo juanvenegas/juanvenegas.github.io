@@ -219,6 +219,7 @@
     <Content Include="Imagen\fitness_banner.jpg" />
     <Content Include="Imagen\tonificacion-dirigida-945x630.jpg" />
     <Content Include="Imagen\yoga-imagen.jpg" />
+    <Content Include="index.html" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
